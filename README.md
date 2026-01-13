@@ -1,20 +1,78 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌿 Habit Garden - 3D 活力习惯追踪器
 
-# Run and deploy your AI Studio app
+Habit Garden 是一款将习惯养成与 3D 花园模拟相结合的活力追踪应用。通过游戏化的方式，将枯燥的习惯坚持转化为充满生机的花园培育过程。
 
-This contains everything you need to run your app locally.
+## ✨ 核心功能
 
-View your app in AI Studio: https://ai.studio/apps/drive/1TYsep_QGCpegOEaKiIA73g0ZFM9FOz9n
+### 1. 🪴 3D 虚拟花园
+- **生命力可视化**：你的习惯达成情况直接影响花园的生命力。
+- **成长阶段**：从萌芽到盛开，见证植物随习惯坚持而产生的阶段性变化。
+- **全景展示**：支持 360 度查看你的月度花园成果。
 
-## Run Locally
+### 2. 📝 智能习惯追踪
+- **多维度养成**：内置早睡、饮水、运动等核心习惯，支持自定义目标。
+- **实时进度**：直观的百分比进度条，随时掌握今日达成情况。
+- **连续达成记录**：追踪连胜天数，激发持续动力。
 
-**Prerequisites:**  Node.js
+### 3. 📊 数据洞察与简报
+- **周概览图表**：使用可视化柱状图分析一周内的生命力波动。
+- **各项汇总**：累计饮水量、跑步里程、平均睡眠时间等详尽统计。
+- **成长报告**：基于 AI 的月度成长总结与预测。
 
+### 4. 🤝 社交互动与激励
+- **全球繁茂榜**：与全球用户竞争花园繁茂程度。
+- **好友动态**：查看好友的花园状态，见证他们的“新花盛开”。
+- **助力浇水**：互动式社交，为好友的植物助力加速成长。
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 5. 🎨 个性化定制
+- **等级与头衔**：随着习惯养成提升等级，解锁“园艺大师”等荣誉头衔。
+- **主题风格**：提供多种花园主题（如“翡翠森林”）和提醒设置。
+
+## 🛠️ 技术栈
+
+- **前端框架**: React 18
+- **路由管理**: React Router DOM
+- **图表展示**: Recharts
+- **样式处理**: Tailwind CSS
+- **图标库**: Google Material Symbols
+- **构建工具**: Vite
+
+## 🚀 快速开始
+
+### 前置要求
+- Node.js (建议 v16+)
+- npm 或 yarn
+
+### 安装与运行
+1. **克隆项目**
+   ```bash
+   git clone [repository-url]
+   cd habit-garden---3d-vitality-tracker
+   ```
+
+2. **安装依赖**
+   ```bash
+   npm install
+   ```
+
+3. **启动开发服务器**
+   ```bash
+   npm run dev
+   ```
+
+4. **构建生产版本**
+   ```bash
+   npm run build
+   ```
+
+## 📁 项目结构
+
+- `components/`: 通用 UI 组件（导航栏、顶部状态栏等）
+- `pages/`: 页面组件（首页、统计、社交、设置、月度花园、习惯详情）
+- `types.ts`: 全局类型定义
+- `App.tsx`: 应用主入口及路由配置
+- `index.tsx`: 渲染入口
+
+---
+
+让每一个好习惯都开出一朵花。🌷
