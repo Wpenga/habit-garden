@@ -1,0 +1,8 @@
+{
+  "name": "Habit Garden - 3D Vitality Tracker",
+  "description": "A gamified habit tracker where your daily consistency blooms into a beautiful 3D isometric garden. Track sleep, hydration, and exercise to grow your virtual sanctuary.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
